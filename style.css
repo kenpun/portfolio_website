@@ -13,6 +13,7 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .hero_desc {
     font-size: 2rem;
@@ -24,19 +25,23 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
+#about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
-} */
+}
+
 #contact {
     padding-bottom: 4rem;
 }
+
 /* about section image css */
 .imageAboutPage {
     width: 100%;
+    border-radius: 50%;
 }
 
 /* services section css */
@@ -64,7 +69,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-github:hover,.fa-linkedin:hover {
     color: #008000;
 }
 .fab {
